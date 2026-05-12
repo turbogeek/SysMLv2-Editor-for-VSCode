@@ -1,0 +1,6 @@
+[submodule "SysMLv2-Editor-for-VSCode"]
+	path = SysMLv2-Editor-for-VSCode
+	url = https://github.com/turbogeek/SysMLv2-Editor-for-VSCode
+[submodule "sysmlv2-validator"]
+	path = sysmlv2-validator
+	url = https://github.com/turbogeek/sysmlv2-validator
