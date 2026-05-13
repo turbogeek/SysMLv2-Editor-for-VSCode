@@ -1,0 +1,9 @@
+Error: The specified token does not exist
+    at AttributeUsageContext.getToken (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\node_modules\antlr4ts\ParserRuleContext.js:197:19)
+    at AttributeUsageContext.ATTRIBUTE (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\out\antlr\SysMLv2Parser.js:25084:31)
+    at SysMLSemanticValidator.enterAttributeUsage (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\out\server.js:57:88)
+    at AttributeUsageContext.enterRule (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\out\antlr\SysMLv2Parser.js:25116:22)
+    at ParseTreeWalker.enterRule (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\node_modules\antlr4ts\tree\ParseTreeWalker.js:84:13)
+    at ParseTreeWalker.walk (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\node_modules\antlr4ts\tree\ParseTreeWalker.js:38:22)
+    at validateTextDocument (E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\out\server.js:254:51)
+    at async E:\_Documents\git\SysMLv2-Editor-for-VSCode\sysmlv2-lsp\server\out\server.js:227:25

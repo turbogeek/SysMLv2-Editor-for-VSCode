@@ -1,0 +1,1 @@
+{"root":["./src/server.ts","./src/antlr/sysmlv2lexer.ts","./src/antlr/sysmlv2parser.ts","./src/antlr/sysmlv2parserlistener.ts","./src/antlr/sysmlv2parservisitor.ts"],"version":"5.9.2"}

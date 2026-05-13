@@ -1,0 +1,50 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "SysMLv2",
+    "patterns": [
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#comments"
+        }
+    ],
+    "repository": {
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.sysmlv2",
+                    "match": "\\b(part|def|action|state|port|connection|import|package|namespace|doc|item|attribute)\\b"
+                }
+            ]
+        },
+        "strings": {
+            "name": "string.quoted.double.sysmlv2",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.sysmlv2",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.double-slash.sysmlv2",
+                    "match": "//.*$"
+                },
+                {
+                    "name": "comment.block.sysmlv2",
+                    "begin": "/\\*",
+                    "end": "\\*/"
+                }
+            ]
+        }
+    },
+    "scopeName": "source.sysml"
+}

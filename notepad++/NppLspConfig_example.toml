@@ -1,0 +1,13 @@
+# SysMLv2 LSP Configuration for Notepad++ (NppLspClient)
+
+[lspservers]
+
+[lspservers.sysmlv2]
+executable = "node"
+# Replace [REPO_ROOT] with the actual absolute path to your repository
+# Example: args = ["E:/_Documents/git/SysMLv2-Editor-for-VSCode/sysmlv2-lsp/server/out/server.js", "--stdio"]
+args = ["[REPO_ROOT]/sysmlv2-lsp/server/out/server.js", "--stdio"]
+mode = "io"
+auto_start_server = true
+
+

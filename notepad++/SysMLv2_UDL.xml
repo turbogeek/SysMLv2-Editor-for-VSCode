@@ -1,0 +1,32 @@
+<NotepadPlus>
+    <UserLang name="sysml" ext="sysml kerml">
+        <Settings>
+            <Global autoCompletion="yes" lineComment="//" blockStart="/*" blockEnd="*/" caseIgnore="no" />
+            <PrefixWords no="no" />
+        </Settings>
+        <KeywordLists>
+            <!-- Group 1: Main Definitions -->
+            <Keywords name="Keywords1">package import public private protected namespace part def action state requirement view viewpoint constraint attribute enum connection interface allocation port item calc analysis case verification concern rendering occurrence flow metadata individual datatype class struct assoc behavior step function predicate interaction metaclass classifier type feature multiplicity connector binding</Keywords>
+            <!-- Group 2: Relationships & Usage -->
+            <Keywords name="Keywords2">specializes redefines subsets references chains inverses conjugates unions intersects differences disjoint typing featuring dependency perform exhibit satisfy allocate connect bind message include actor stakeholder expose render as defined typed by about from to of at via all any sequence accept verify send new entry exit do return</Keywords>
+            <!-- Group 3: Flow Control -->
+            <Keywords name="Keywords3">if else while loop until after when terminate first then start done succession transition decide merge fork join</Keywords>
+            <!-- Group 4: Modifiers & Literals -->
+            <Keywords name="Keywords4">abstract variation variant readonly derived end ordered nonunique parallel composite portion istype hastype in out inout default ref value constant doc comment rep language locale assert assume require objective frame not subject for alias assign event this library standard filter inv xor implies meta snapshot timeslice true false null</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="STRING" styleID="3" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
